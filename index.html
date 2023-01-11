@@ -4,50 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mini Tech</title>
   </head>
   <body>
     <header id="header">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <div class="header-div"><h1>Mini Tech</h1></div>
+      <div id="header-link-div" class="header-div">
+        <div class="header-link">Company Info</div>
+        <div class="header-link">Our Customer Feedback</div>
+        <div class="header-link">Contact Us</div>
+      </div>
+   
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
-        </ul>
+        <h2><center>We handle all your need for web development!</center></h2>
+        <img src="./assets/img/element.png" alt="" />
       </section>
 
       <section class="card" id="css-section">
-        <h2>CSS</h2>
+        <h2>Contact us</h2>
+
+        <div id="contact-us-div">
+          <label for="name">Name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br><br>
+          <input type="submit" value="Submit">
+        </div>
+      </section>
+
+
+
+      <section class="card" id="language-section">
+        <h2>Language we support</h2>
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Node</li>
+          <li>PHP</li>
+          <li>CSS 3</li>
         </ul>
       </section>
 
-      <section class="card" id="git-section">
-        <h2>Git</h2>
+
+      <section class="card" id="framework-section">
+        <h2>Framework we support</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>Ionic</li>
+          <li>Angular</li>
+          <li>Ruby</li>
         </ul>
       </section>
 
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
+      <section class="card" id="database-section">
+        <h2>Framework we support</h2>
         <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>MySQL</li>
+          <li>Firebase</li>
+          <li>MongoDB</li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>We can code!</p>
     </footer>
 
     <script src="./assets/script.js"></script>
