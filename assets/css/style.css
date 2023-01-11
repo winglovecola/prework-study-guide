@@ -17,21 +17,37 @@
     display: inline;
    }
 
+  #header-title-div {
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+  }
+
    #header-link-div {
 
     position: absolute;
     right: 0px;
+    top: 30px;
     width: 100%;
     text-align: right;
     font-size: 20px;
+    
    }
+
 
    .header-link {
 
     display: inline;
     width: 100%;
     text-align: right;
+    padding: 10px;
    }
+
+   .header-link a {
+
+    color: white;
+   }
+
 
    h1,
    h2 {
